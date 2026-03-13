@@ -1,0 +1,15 @@
+; DemoConversation 右路脚本（使用正式角色 MC 和 Y）
+
+@back Street.Ripple time:0.5
+
+MC: 我选择了右边的路，前方是灯火通明的小镇。
+
+@choice "走进小镇深处逛一逛"
+    Y: 诶，新面孔？第一次来这里吧。
+    MC: 我在小镇里遇见了许多新面孔，新的故事才刚刚开始。
+    MC: （右路结局 · 小镇）
+    @stop
+
+@choice "有点累了，还是回到路口"
+    MC: 有点累了，还是先回到路口吧。
+    @goto DemoConversation

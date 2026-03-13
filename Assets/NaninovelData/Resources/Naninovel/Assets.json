@@ -1,6 +1,54 @@
 {
     "Assets": [
         {
+            "guid": "aa942d2c17558e94d8342c6210bae8c6",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "Park",
+            "group": "Backgrounds/2ef79f35-627d-458d-a9f8-2052fb7d759a"
+        },
+        {
+            "guid": "f8f64a4afd7d05e4eb55ba72e953ea2f",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "Street",
+            "group": "Backgrounds/2ef79f35-627d-458d-a9f8-2052fb7d759a"
+        },
+        {
+            "guid": "8970f3bf16f5879468fc3e4f9ddf349c",
+            "prefix": "Characters/莉奈",
+            "path": "微笑",
+            "group": "Characters/427b0d6c-f2c0-490d-9030-02b341183566"
+        },
+        {
+            "guid": "cabd422fd3cb640429b4de3163601cf6",
+            "prefix": "Characters/莉奈",
+            "path": "无语",
+            "group": "Characters/427b0d6c-f2c0-490d-9030-02b341183566"
+        },
+        {
+            "guid": "4644d83a5c4df4049898df9886d60dcd",
+            "prefix": "Characters/莉奈",
+            "path": "鄙视",
+            "group": "Characters/427b0d6c-f2c0-490d-9030-02b341183566"
+        },
+        {
+            "guid": "af66086ebaba0a947bb9c7e23df63a48",
+            "prefix": "Characters/鸟兰",
+            "path": "微笑",
+            "group": "Characters/b2d6558f-05a7-4570-a595-4e71626196c9"
+        },
+        {
+            "guid": "8f44fda4d38a09049969de1f66e2d225",
+            "prefix": "Characters/鸟兰",
+            "path": "无语",
+            "group": "Characters/b2d6558f-05a7-4570-a595-4e71626196c9"
+        },
+        {
+            "guid": "0872699d9c852344caa2f6e46b87933d",
+            "prefix": "Characters/鸟兰",
+            "path": "鄙视",
+            "group": "Characters/b2d6558f-05a7-4570-a595-4e71626196c9"
+        },
+        {
             "guid": "4fa6d62f894ae6e4698bfa8af59e7942",
             "prefix": "ChoiceHandlers",
             "path": "ButtonArea",
@@ -17,6 +65,24 @@
             "prefix": "ChoiceHandlers",
             "path": "ChatReply",
             "group": "ChoiceHandlers/ddc02bfa-b113-4cb2-8e96-f00daa7fd09e"
+        },
+        {
+            "guid": "4ccc12c3acf94f8899bc18380396b5cc",
+            "prefix": "Scripts",
+            "path": "DemoConversation",
+            "group": ""
+        },
+        {
+            "guid": "301e0a1768b14809b044ef67f62b6125",
+            "prefix": "Scripts",
+            "path": "DemoConversationLeft",
+            "group": ""
+        },
+        {
+            "guid": "078e0d039f164efd94ae25088b30f8ae",
+            "prefix": "Scripts",
+            "path": "DemoConversationRight",
+            "group": ""
         },
         {
             "guid": "2a7a46a0bd7f430a95edd54be4381b51",
@@ -58,6 +124,12 @@
             "guid": "c7181eab9f5340aa90f235d3427259a6",
             "prefix": "Scripts",
             "path": "SecretRoute",
+            "group": ""
+        },
+        {
+            "guid": "a1e54cc54ebbe574cad377cf1f925940",
+            "prefix": "Scripts",
+            "path": "Test2",
             "group": ""
         },
         {

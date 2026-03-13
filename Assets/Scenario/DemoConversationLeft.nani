@@ -1,0 +1,14 @@
+; DemoConversation 左路脚本（使用正式角色 MC）
+
+@back Street.Ripple time:0.5
+
+MC: 我选择了左边的路，前方是一片安静的森林。
+
+@choice "在森林里四处探索"
+    MC: 我在林间小路上走了很久，找到了一处安静的空地。
+    MC: （左路结局 · 森林）
+    @stop
+
+@choice "觉得有点害怕，还是回到路口"
+    MC: 有点害怕，还是先回到路口想想吧。
+    @goto DemoConversation

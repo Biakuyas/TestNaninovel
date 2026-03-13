@@ -1,0 +1,43 @@
+; 对话 + 选项 + 脚本间跳转 流程入口（使用正式角色 MC）
+
+@char 莉奈.微笑 pos:25,-75 scale:0.85
+@char 鸟兰.鄙视 pos:300,-75 scale:0.85
+
+@back Park time:0
+莉奈: ……我来到一个十字路口。
+
+@char 莉奈.鄙视
+莉奈: 前面有两条路可以选择。
+
+; ; 相机移动 3 秒，但对话不等它，立刻继续
+; @camera zoom:0.4 offset:3,0 time:2 wait!
+; 莉奈: 相机还在慢慢移动时，我已经在说话了。
+; ; 相机移动 3 秒，对话要等它移完才说
+; @camera zoom:0.4 offset:-3,0 time:2 wait!
+; 莉奈: 相机停好以后，我才开始说话。
+@slide 鸟兰 from:80,30 to:70,-75 time:0.4 wait!
+鸟兰.鄙视: ...真的吗。
+
+@shake 莉奈 count:3
+@camera offset:-3,1.5 zoom:0.5 time:0.5 wait!
+莉奈: 啊哇哇哇！ [< as:"受惊的莉奈"]
+
+@camera offset:0,0 zoom:0 rotation:0,0,0 time:0.23 wait!
+鸟兰: ...胆小鬼
+
+鸟兰: 看看我们身上的装备
+
+# @async CameraPan
+@camera offset:4,1 zoom:0.5 time:3 wait!
+@camera offset:0,-2 zoom:0.4 time:2 wait!
+@camera offset:0,0 zoom:0 time:3 wait!
+# @await CameraPan
+莉奈.无语: 好像忍者呢！
+
+
+
+
+@choice "走左边的路"
+    @goto DemoConversationLeft
+@choice "走右边的路"
+    @goto DemoConversationRight
